@@ -1,0 +1,29 @@
+.Footer
+{
+    background-color:#EB9687;
+  
+    margin-top: 20px;
+}
+.Footer h3
+{
+    margin-left: 380px;
+}
+
+
+
+@media (max-width:1024px) {
+    .Footer h3{font-size: 20px;}
+}
+@media (max-width:768px) {
+    .Footer h3 {margin-left:100px;}
+}
+@media (max-width:425px) {
+    
+    .Footer{width:170%}
+}
+@media (max-width:375px) {
+    .Footer  {width:190%;}
+}
+@media (max-width:320px) {
+    .Footer  {width:220%;}
+}

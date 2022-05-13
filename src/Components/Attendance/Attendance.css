@@ -1,0 +1,157 @@
+.titles
+{
+    text-align: center;
+    margin-top: 20px;
+}
+.attend
+{
+    display: flex;
+    justify-content: space-between;
+   
+    /* background-color: #590098; */
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 20px;
+   
+    height:100px;
+    margin-left:16%;
+    margin-top: 20px;
+}
+
+.attend .btns{
+  display: flex;
+  flex: wrap;
+  border: none;
+  height:75px;
+  background-color: #590098;
+  color: white;
+  border-radius: 10px;
+  margin-left: 200px;
+}
+
+.attend .btns h3
+{
+  margin-top: 20px;
+
+}
+.presents
+{
+
+    font-size: 15px;
+    margin-left: 13%;
+    margin-top: 30px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: white;
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 12.7%;
+    color: black;
+    text-align: center;
+  }
+  
+  .days {
+    padding: 10px 0;
+    background: white;
+    margin: 0;
+  }
+  
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 12.7%;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size:12px;
+    color: black;
+  }
+  
+  .days li .active {
+    padding: 5px;
+    background: green;
+    color: white !important
+  }
+  
+  
+.values
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width:40%;
+    margin-left:15% ;
+    margin-top: 30px;
+}
+
+
+.button
+{
+    
+    height:30px;
+    color:white;
+    flex-direction: row;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 450px;
+    border: none;
+
+}
+
+@media screen and (max-width:1024px) {
+  .weekdays li, .days li {width: 13%;}
+  .attend{  margin-left: 10px;}
+  .button{margin-left: 350px;}
+
+
+}
+
+@media screen and (max-width:768px) {
+    .weekdays li, .days li {width: 13.1%;}
+    .values{margin-left: 130px;gap:10px}
+    /* .attend{margin-left: 5px; } */
+    .button{margin-left: 200px;}
+    .attend{  margin-left: -110px;}
+  } 
+  
+  @media screen and (max-width: 425px) {
+    .weekdays li, .days li {width: 13.5%;}
+    .days li .active {padding: 2px;}
+    .presents{margin-left: 150px;width:110%}
+    .titles{margin-left: 300px;}
+    .values{margin-left: 160px;width:100%}
+    .button{margin-left: 250px;}
+    .attend{  margin-left: -110px;}
+  
+  }
+  
+  @media screen and (max-width: 375px) {
+    .weekdays li, .days li {width: 13.5%;}
+    .presents{margin-left: 100px;width:130%}
+    .titles{margin-left: 250px;}
+    .values{margin-left: 110px;width:100%}
+    .button{margin-left: 200px;}
+    
+  }
+  @media screen and (max-width: 320px) {
+    .weekdays li, .days li {width: 13.5%;}
+    .presents{margin-left: 100px;width:150%}
+    .titles{margin-left: 250px;}
+    .values{margin-left: 110px;gap:10px;width:100%}
+  }
+
+  .red{
+    padding: 5px;
+    background: red;
+    color: white !important
+  }
+  .grey
+  {
+      padding:5px;
+      background:#E9E9E9;
+      color:black;
+  }
